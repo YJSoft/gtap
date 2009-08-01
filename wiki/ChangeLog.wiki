@@ -1,7 +1,7 @@
 #summary changelog of gtap
 #labels Featured
 
-== 2009.08.01 ==
+== 2009.08.02 ==
   # 修改了身份验证部分，可以更正常的代理API
   # 完全照模样返回Twitter API的响应
 
