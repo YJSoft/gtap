@@ -1,14 +1,6 @@
-#summary One-sentence summary of this page.
+#summary changelog of gtap
 #labels Featured
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== 2009.08.01 ==
+  #1 建立项目
+  #2 初步完成大部分功能
