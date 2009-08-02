@@ -1,4 +1,0 @@
-#summary 准备要做的事
-#labels Featured
-
-  * 根据Twitter的需要来处理身份认证
