@@ -1,6 +1,11 @@
 #summary changelog of gtap
 #labels Featured
 
+     * === v0.2.2 (2009.12.30) ===
+       # fixed 版本显示的错误
+       # 增加了对search.twitter.com和api.twitter.com的支持，如：
+       # https://search.twitter.com    =>    https://gtapserver1.appspot.com/search
+       # https://api.twitter.com    =>    https://gtapserver1.appspot.com/api
      * === v0.2.1 (2009.08.03) ===
        # 在app.yaml中增加了参数secure，强制客户端用https连接
        # 再一次修改了TwitterFox 1.8.3，现在API和所有在浏览器中打开的链接，均使用HTTPS
