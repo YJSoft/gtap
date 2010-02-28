@@ -1,6 +1,9 @@
 #summary changelog of gtap
 #labels Featured
 
+     * === v0.3 (2010.03.01) ===
+       # 增加 is_hop_by_hop 函数
+       # 重写了从twitter抓取数据后返回给客户端的部分
      * === v0.2.2 (2009.12.30) ===
        # fixed 版本显示的错误
        # 增加了对search.twitter.com和api.twitter.com的支持，如：
