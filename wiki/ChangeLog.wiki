@@ -1,6 +1,9 @@
 #summary changelog of gtap
 #labels Featured
 
+     * === v0.4 (2010.07.02) ===
+       # 只支持 Oauth 方式的身份认证
+       # 可修改 secret key
      * === v0.3 (2010.03.01) ===
        # 增加 is_hop_by_hop 函数
        # 重写了从twitter抓取数据后返回给客户端的部分
