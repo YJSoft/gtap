@@ -1,10 +1,6 @@
 #summary One-sentence summary of this page.
 #labels Featured
 
-= Introduction =
-
-It is a simple solution on Google Appengine which can proxy the HTTP request to twitter's official REST API url . 
-
 = 搭建GAE开发环境 =
  使用 App Engine Python 软件开发套件 (SDK) 为 Google App Engine 开发和上传 Python 应用程序。
   
@@ -32,7 +28,7 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
 
  申请成功后会得到Consumer key、Consumer secret这两个数据。
 
-= 部署gtap应用程序 =
+= 注册 Google App Engine 应用程序 =
 
  从位于以下网址的 App Engine 管理控制台创建以及管理 App Engine 网络应用程序：
 
@@ -40,12 +36,28 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
  
  使用您的 Google 帐户登录到 App Engine。如果您没有 Google 帐户，可以使用电子邮件地址和密码创建一个 Google 帐户。
 
- 要创建新应用程序，请点击“创建应用程序”按钮。请按照说明注册一个应用程序 ID，即一个对该应用程序唯一的名称，如gtap。如果您选择使用免费的 appspot.com 域名，那么该应用程序的完整网址将为 http://gtap.appspot.com/。您还可以为您的应用程序购买一个顶级域名，或使用一个您已注册的顶级域名。
+ 请点击“创建应用程序”按钮。请按照说明注册一个应用程序 ID，即一个对该应用程序唯一的名称，如gtapserver1。如果您选择使用免费的 appspot.com 域名，那么该应用程序的完整网址将为 http://gtapserver1.appspot.com/。您还可以为您的应用程序购买一个顶级域名，或使用一个您已注册的顶级域名。
+
+= 部署 GTAP 应用程序 =
 
  从位于以下网址的 GTAP 项目主页下载 gtap-0.4 版的源代码，并解压。
 
-    http://code.google.com/p/gtap/
+    http://code.google.com/p/gtap/downloads/list
 
  编辑 app.yaml 文件，然后将 application: 设置的值从“your_application_id”更改为您注册的应用程序 ID，如gtap。
 
- 编辑 main.py 文件，将其中第14，15行的内容，改为您在Twitter申请应用时获得
+ 编辑 main.py 文件，将其中第14，15行的内容，分别改为您在Twitter申请应用时获得Consumer key和Consumer secret。
+
+ 运行以下命令，将 GTAP 部署至 Google App Engine:
+    
+    appcfg.py update gtap-0.4/
+
+ 在提示下输入您的 Google 用户名和密码。
+
+ 现在您就可以看到您的应用程序在 App Engine 上运行了。如果您创建了免费的 appspot.com 域名，那么您网站的网址将以您的应用程序 ID 开头，在本文档中，为：
+
+    http://gtapserver1.appspot.com/
+
+= 恭喜您！ =
+ 
+ 关于 App Engine Python SDK 中 appcfg.py 命令的更多使用方法（如gae被墙的情况下如何使用代理上传应用程序），请参阅 App Engine 文档的“[http://code.google.com/intl/zh-CN/appengine/docs/python/tools/uploadinganapp.html 上传和管理 Python 应用程序]”部分。
