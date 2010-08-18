@@ -13,3 +13,29 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
  [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
 
  对于本教程，您将使用一个来自 SDK 的命令：appcfg.py，用于将您的应用程序上传到 App Engine
+
+ 对于 Windows 用户：Windows 安装程序会将这些命令置于命令路径中。安装后，您可以从命令提示符运行这个命令。
+
+ 对于 Mac 用户：Google App Engine 启动程序会将这些命令包含在应用程序中。您可以通过从“GoogleAppEngineLauncher”菜单中选择“Make Symlinks...”将这些命令置于命令路径中。或者，您可以使用启动程序来运行开发网络服务器并部署您的应用程序，而不必运行命令。
+
+ 如果您使用 SDK 的 Zip 归档版本，您将在 google_appengine 目录中找到这些命令。
+
+
+
+= 注册Twitter应用 =
+ [http://twitter.com/apps/ 在这里] 注册一个Twitter的Application
+
+ 注意，在“Application Type”的地方，选择“Browser ”；在“Default Access type”的地方，选择“Read & Write”；在“Use Twitter for login”的地方，不要打勾。
+
+ 至于很多人都很关心的“Callback URL”项，则不需要关心，可随意填写。
+
+ 申请成功后会得到Consumer key、Consumer secret、Request token URL、Access token URL、Authorize URL这几个数据。
+
+= 部署gtap应用程序 =
+
+ 从位于以下网址的 App Engine 管理控制台创建以及管理 App Engine 网络应用程序：
+    http://appengine.google.com/
+
+ [在这里下载] gtap-0.4 版的源代码，并解压至一个目录
+
+ 使用记事本或其他文本编辑工具，打开目录内的app.yaml文件，修改“your_application_id”为
