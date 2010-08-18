@@ -1,5 +1,8 @@
-#summary One-sentence summary of this page.
 #labels Featured
+
+= 介绍 =
+
+ 本文档介绍了部署GTAP应用程序的所有步骤。其中搭建GAE开发环境的部分大量参考了Google App Engine Python SDK的帮助文档。
 
 = 搭建GAE开发环境 =
  使用 App Engine Python 软件开发套件 (SDK) 为 Google App Engine 开发和上传 Python 应用程序。
