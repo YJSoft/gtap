@@ -12,6 +12,4 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
 
  [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
 
- 对于本教程，您将使用一个来自 SDK 的命令：
-
-    * appcfg.py，用于将您的应用程序上传到 App Engine
+ 对于本教程，您将使用一个来自 SDK 的命令：appcfg.py，用于将您的应用程序上传到 App Engine
