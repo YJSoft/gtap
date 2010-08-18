@@ -5,9 +5,8 @@
 
 It is a simple solution on Google Appengine which can proxy the HTTP request to twitter's official REST API url . 
 
-= Details =
-  * 修改app.yaml，将“your_application_id”替换为你的GAE应用的名字
-  * 将代码上传至google app engine
-  * 访问你的GAE应用，点击“Sign in with twitter”的图标，完成授权
-  * 记住授权完毕后的key，或者自己修改成一个易记的。
-  * Now you can use gtap with funny
+= 搭建GAE开发环境 =
+  使用 App Engine Python 软件开发套件 (SDK) 为 Google App Engine 开发和上传 Python 应用程序。
+  
+
+  请从 [http://python.org/ftp/python/2.7/python-2.7.msi Python 网站下载]和安装适合您的平台的 Python 2.5。Mac OS X 10.5 Leopard 用户已安装 Python 2.5
