@@ -23,19 +23,29 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
 
 
 = 注册Twitter应用 =
+
  [http://twitter.com/apps/ 在这里] 注册一个Twitter的Application
 
  注意，在“Application Type”的地方，选择“Browser ”；在“Default Access type”的地方，选择“Read & Write”；在“Use Twitter for login”的地方，不要打勾。
 
  至于很多人都很关心的“Callback URL”项，则不需要关心，可随意填写。
 
- 申请成功后会得到Consumer key、Consumer secret、Request token URL、Access token URL、Authorize URL这几个数据。
+ 申请成功后会得到Consumer key、Consumer secret这两个数据。
 
 = 部署gtap应用程序 =
 
  从位于以下网址的 App Engine 管理控制台创建以及管理 App Engine 网络应用程序：
+
     http://appengine.google.com/
+ 
+ 使用您的 Google 帐户登录到 App Engine。如果您没有 Google 帐户，可以使用电子邮件地址和密码创建一个 Google 帐户。
 
- [在这里下载] gtap-0.4 版的源代码，并解压至一个目录
+ 要创建新应用程序，请点击“创建应用程序”按钮。请按照说明注册一个应用程序 ID，即一个对该应用程序唯一的名称，如gtap。如果您选择使用免费的 appspot.com 域名，那么该应用程序的完整网址将为 http://gtap.appspot.com/。您还可以为您的应用程序购买一个顶级域名，或使用一个您已注册的顶级域名。
 
- 使用记事本或其他文本编辑工具，打开目录内的app.yaml文件，修改“your_application_id”为
+ 从位于以下网址的 GTAP 项目主页下载 gtap-0.4 版的源代码，并解压。
+
+    http://code.google.com/p/gtap/
+
+ 编辑 app.yaml 文件，然后将 application: 设置的值从“your_application_id”更改为您注册的应用程序 ID，如gtap。
+
+ 编辑 main.py 文件，将其中第14，15行的内容，改为您在Twitter申请应用时获得
