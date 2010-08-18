@@ -6,9 +6,12 @@
 It is a simple solution on Google Appengine which can proxy the HTTP request to twitter's official REST API url . 
 
 = 搭建GAE开发环境 =
-  使用 App Engine Python 软件开发套件 (SDK) 为 Google App Engine 开发和上传 Python 应用程序。
+ 使用 App Engine Python 软件开发套件 (SDK) 为 Google App Engine 开发和上传 Python 应用程序。
   
+ 请从 [http://python.org/download/ Python 网站下载] 和安装适合您的平台的 Python 2.x。Mac OS X 10.5 Leopard 用户已安装 Python 2.5
 
-  请从 [http://python.org/download/ Python 网站下载] 和安装适合您的平台的 Python 2.x。Mac OS X 10.5 Leopard 用户已安装 Python 2.5
+ [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
 
-  [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
+ 对于本教程，您将使用一个来自 SDK 的命令：
+
+    * appcfg.py，用于将您的应用程序上传到 App Engine
