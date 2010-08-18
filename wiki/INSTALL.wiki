@@ -1,5 +1,4 @@
 #labels Featured
-
 = 介绍 =
 
  本文档介绍了部署GTAP应用程序的所有步骤。其中搭建GAE开发环境的部分大量参考了Google App Engine Python SDK的帮助文档。
@@ -11,7 +10,7 @@
 
  [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
 
- 对于本教程，您将使用一个来自 SDK 的命令：appcfg.py，用于将您的应用程序上传到 App Engine
+ 对于本教程，您将使用一个来自 SDK 的命令：appcfg.py，用于将GTAP上传到 App Engine
 
  对于 Windows 用户：Windows 安装程序会将这些命令置于命令路径中。安装后，您可以从命令提示符运行这个命令。
 
