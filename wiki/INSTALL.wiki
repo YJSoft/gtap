@@ -11,4 +11,4 @@ It is a simple solution on Google Appengine which can proxy the HTTP request to 
 
   请从 [http://python.org/download/ Python 网站下载] 和安装适合您的平台的 Python 2.x。Mac OS X 10.5 Leopard 用户已安装 Python 2.5
 
-[http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
+  [http://code.google.com/intl/zh-CN/appengine/downloads.html 下载 App Engine SDK]。按照下载页面中的说明在计算机上安装 SDK。
