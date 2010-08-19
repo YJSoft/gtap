@@ -46,7 +46,7 @@
 
     http://code.google.com/p/gtap/downloads/list
 
- 编辑 app.yaml 文件，然后将 application: 设置的值从“your_application_id”更改为您在google注册的应用程序 ID，如gtapserver1。
+ 编辑 app.yaml 文件，然后将 application: 设置的值从“your_application_id”更改为您在google注册的应用程序 ID，如gtapserver1。若因为GFW或什么其他原因而不像(或不能)使用加密传输的HTTP协议，则将该文件第12行的“secure: always”删掉即可。
 
  编辑 main.py 文件，将其中第14，15行的内容，分别改为您在Twitter申请应用时获得Consumer key和Consumer secret。
 
