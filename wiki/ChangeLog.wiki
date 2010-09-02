@@ -2,10 +2,10 @@
 #labels Featured
 
 
-     * === v0.4.1 (2010.07.02) ===
-       # Fixed issue 49
-       # username case insensitive.Need to re-certification from twitter.com
-       # optimize procedures
+     * === v0.4.1 (2010.09.02) ===
+       # BugFix: issue 49 . thanks Pro711
+       # Feature: username case insensitive.Need to re-certification from twitter.com
+       # Feature: optimize procedures
      * === v0.4 (2010.07.02) ===
        # 只支持 Oauth 方式的身份认证
        # 可修改 secret key
