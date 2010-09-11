@@ -26,7 +26,7 @@
 
  注意，在“Application Type”的地方，选择“Browser ”；在“Default Access type”的地方，选择“Read & Write”；在“Use Twitter for login”的地方，不要打勾。
 
- 至于很多人都很关心的“Callback URL”项，则不需要关心，可随意填写。
+ 至于很多人都很关心的“Callback URL”项，则不需要关心，可随意填写，但必须要写。
 
  申请成功后会得到Consumer key、Consumer secret这两个数据。
 
